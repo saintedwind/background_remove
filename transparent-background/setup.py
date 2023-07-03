@@ -1,17 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
 
 setuptools.setup(
     name="transparent-background",
     version="1.2.4",
-    author="Taehun Kim",
-    author_email="taehoon1018@postech.ac.kr",
     description="Make images with transparent background",
-    long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/plemeri/transparent-background",
     packages=['transparent_background', 'transparent_background.modules', 'transparent_background.backbones'],
     classifiers=[
         "Programming Language :: Python :: 3",
